@@ -10,8 +10,7 @@ is included via a link.
 # What the script does
 
 1. build and copy the root project to `/test-projects/workaround-package`
-2. run a clean build of `/test-projects/vite-project`
-3. execute the tests of `/test-projects/vite-project` with a `file:` dependency
-4. the tests pass 🙂
-5. execute the tests of `/test-projects/vite-project` with a `link:` dependency
-6. the tests fail 🙁
+2. execute the tests of `/test-projects/vite-project` with a `file:` dependency
+3. the tests pass 🙂
+4. execute the tests of `/test-projects/vite-project` with a `link:` dependency
+5. the tests fail 🙁
