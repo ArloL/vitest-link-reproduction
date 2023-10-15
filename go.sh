@@ -25,10 +25,15 @@ clean_build() {
     yarn run test run
 }
 
+SED="sed"
+if hash gsed 2>/dev/null; then
+    SED="gsed"
+fi
+
 # setup file dependency
-sed -e "s#link:#file:#g" -i '' package.json
+${SED} -e "s#link:#file:#g" -i package.json
 clean_build
 
 # setup link dependency
-sed -e "s#file:#link:#g" -i '' package.json
+${SED} -e "s#file:#link:#g" -i package.json
 clean_build
