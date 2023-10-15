@@ -9,7 +9,8 @@ export default defineConfig({
       'react',
       'react-dom',
       'react/jsx-runtime',
-    ]
+    ],
+    preserveSymlinks: true,
   },
   test: {
     environment: 'jsdom',
