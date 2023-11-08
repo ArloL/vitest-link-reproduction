@@ -9,6 +9,10 @@ export default defineConfig({
   plugins: [
     react(),
   ],
+  resolve: {
+    dedupe: ['react', '@mui/base'],
+    mainFields: ['module', 'main'],
+  },
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.js'),
