@@ -9,6 +9,6 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "npm"
-    directory: "/test-projects/vite-project"
+    directory: "/test-projects/vite-project/"
     schedule:
       interval: "daily"
