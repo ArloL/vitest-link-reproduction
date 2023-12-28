@@ -6,11 +6,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     dedupe: [
-      'react',
-      'react-dom',
-      'react/jsx-runtime',
+      '@mui/base',
     ],
-    preserveSymlinks: true,
   },
   test: {
     environment: 'jsdom',
