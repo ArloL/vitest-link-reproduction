@@ -3,6 +3,8 @@
 This project demonstrates an issue where vitest runs fail when a dependency
 is included via a link.
 
+The reported issue is <https://github.com/vitest-dev/vitest/issues/4032>.
+
 # Quickstart
 
 `./go.sh`
