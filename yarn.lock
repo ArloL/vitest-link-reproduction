@@ -405,31 +405,31 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@mui/base@^5.0.0-beta.69":
-  version "5.0.0-beta.69"
-  resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-beta.69.tgz#fc3635818c6a9fb954b1ee00870109e7e266149d"
-  integrity sha512-r2YyGUXpZxj8rLAlbjp1x2BnMERTZ/dMqd9cClKj2OJ7ALAuiv/9X5E9eHfRc9o/dGRuLSMq/WTjREktJVjxVA==
+"@mui/base@^5.0.0-beta.70":
+  version "5.0.0-beta.70"
+  resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-beta.70.tgz#cd9755b8ae1b375fb3c985f06a4741505d793ecf"
+  integrity sha512-Tb/BIhJzb0pa5zv/wu7OdokY9ZKEDqcu1BDFnohyvGCoHuSXbEr90rPq1qeNW3XvTBIbNWHEF7gqge+xpUo6tQ==
   dependencies:
     "@babel/runtime" "^7.26.0"
     "@floating-ui/react-dom" "^2.1.1"
-    "@mui/types" "^7.2.21"
-    "@mui/utils" "^6.4.1"
+    "@mui/types" "~7.2.24"
+    "@mui/utils" "^6.4.8"
     "@popperjs/core" "^2.11.8"
     clsx "^2.1.1"
     prop-types "^15.8.1"
 
-"@mui/types@^7.2.21":
-  version "7.2.21"
-  resolved "https://registry.yarnpkg.com/@mui/types/-/types-7.2.21.tgz#63f50874eda8e4a021a69aaa8ba9597369befda2"
-  integrity sha512-6HstngiUxNqLU+/DPqlUJDIPbzUBxIVHb1MmXP0eTWDIROiCR2viugXpEif0PPe2mLqqakPzzRClWAnK+8UJww==
+"@mui/types@~7.2.24":
+  version "7.2.24"
+  resolved "https://registry.yarnpkg.com/@mui/types/-/types-7.2.24.tgz#5eff63129d9c29d80bbf2d2e561bd0690314dec2"
+  integrity sha512-3c8tRt/CbWZ+pEg7QpSwbdxOk36EfmhbKf6AGZsD1EcLDLTSZoxxJ86FVtcjxvjuhdyBiWKSTGZFaXCnidO2kw==
 
-"@mui/utils@^6.4.1":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@mui/utils/-/utils-6.4.2.tgz#eeba878bf55fbe0a72bd6adb361f5737a489ec52"
-  integrity sha512-5NkhzlJkmR5+5RSs/Irqin1GPy2Z8vbLk/UzQrH9FEAnm6OA9SvuXjzgklxUs7N65VwEkGpKK1jMZ5K84hRdzQ==
+"@mui/utils@^6.4.8":
+  version "6.4.9"
+  resolved "https://registry.yarnpkg.com/@mui/utils/-/utils-6.4.9.tgz#b0df01daa254c7c32a1a30b30a5179e19ef071a7"
+  integrity sha512-Y12Q9hbK9g+ZY0T3Rxrx9m2m10gaphDuUMgWxyV5kNJevVxXYCLclYUCC9vXaIk1/NdNDTcW2Yfr2OGvNFNmHg==
   dependencies:
     "@babel/runtime" "^7.26.0"
-    "@mui/types" "^7.2.21"
+    "@mui/types" "~7.2.24"
     "@types/prop-types" "^15.7.14"
     clsx "^2.1.1"
     prop-types "^15.8.1"
