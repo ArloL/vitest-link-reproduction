@@ -5,11 +5,15 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    dedupe: [
-      '@mui/base',
-    ],
+    dedupe: ['react', 'react-dom', 'react/jsx-runtime'],
+    preserveSymlinks: true,
   },
   test: {
     environment: 'jsdom',
+    server: {
+      deps: {
+        inline: [/vitest-link-reproduction/],
+      },
+    },
   },
 })
