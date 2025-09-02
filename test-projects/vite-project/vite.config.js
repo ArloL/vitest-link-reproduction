@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     dedupe: [
-      '@base-ui-components/react',
+      'react',
     ],
   },
   test: {
