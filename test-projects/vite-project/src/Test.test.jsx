@@ -1,9 +1,9 @@
 import { expect, test } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { MyButton } from 'vitest-link-reproduction';
+import { MyAvatar } from 'vitest-link-reproduction';
 
-test('renders a button', () => {
-  render(<MyButton>Test</MyButton>);
+test('renders an avatar', () => {
+  render(<MyAvatar>Test</MyAvatar>);
 
   expect(screen.getByText('Test')).toBeDefined();
 });
